@@ -193,3 +193,21 @@ body {
         max-width: 250px;
     }
 }
+/* Media query para las imágenes de "Nuestros Pasteles" */
+@media (max-width: 768px) {
+    .img2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img2 img {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .img2 img:last-child {
+        margin-bottom: 0;
+    }
+}
